@@ -1,0 +1,14 @@
+{application, rits_db,
+ [
+  {description, "An Erlang rits_db library"},
+  {vsn, "1"},
+  {modules, [
+             rits_db
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
