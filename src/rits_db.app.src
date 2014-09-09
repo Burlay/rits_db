@@ -2,13 +2,13 @@
  [
   {description, "An Erlang rits_db library"},
   {vsn, "1"},
-  {modules, [
-             rits_db
-            ]},
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  poolboy,
+                  pgsql
                  ]},
+  {mod, {rits_db, []}},
   {env, []}
  ]}.
